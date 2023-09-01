@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+}
+
+header{
+    width:100%;
+    height: 100vh;
+    background-image: url(../imgs/home-header.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 5% 5%;
+    color: white;
+}
+
+.logo{
+    font-family:cursive !important;
+}
+
+.intro {
+    margin-top: 10%;
+    font-family: serif;
+}
+
+.intro h3{
+    font-size: 4rem;
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+@media (max-width:1024px) {
+    .intro {
+        margin-top: 25%;
+    }
+    .intro h3{
+        font-size: 3rem;
+        width: 60%;
+    }
+}
+
+.intro button{
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    border: none !important;
+    outline: none !important;
+    color: white;
+    background-color: #dd9d4c;
+    font-size: 17px;
+    font-weight: 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.intro button:hover{
+    background-color: #dd9e4cb6;
+}
+
+/* ==================================================================================================== */
+
+.consciously{
+    padding: 5% 5%; 
+    background-color: #F6F1ED;
+}
+
+.left-section{
+    padding-top: 80px;
+}
+
+
+.cons-title{
+    margin-bottom: 20px;
+    font-family: serif;
+}
+
+.cons-descr{
+    line-height:1.6;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+.cons-img{
+    width: 100%;
+    height: 500px;
+}
+
+/* ========================================================================================================== */
+
+.thoughtful {
+    padding: 5% 5%; 
+    background-color: #FCF8F5;
+}
+
+.title h1{
+    font-family: serif;
+    margin-bottom: 20px;
+}
+
+.title button{
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    border: none !important;
+    outline: none !important;
+    color: white;
+    background-color: #dd9d4c;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.imgwithtext{
+    margin-bottom: 70px;
+}
+
+.imgwithtext h3{
+    font-family: serif;
+}
+
+.imgwithtext p{
+    line-height:1.6;
+    letter-spacing: 1px;
+}
+
+.imgwithtext img{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+/* /===================================================================================================== */
+
+.loved{
+    background-color: #F6F1ED;
+    padding: 5% 5%; 
+}
+.loved-title{
+    margin-bottom: 50px;
+    font-family: serif;
+}
+
+.loved-card img{
+    width: 100%;
+    height: 400px;
+    margin-bottom: 30px;
+}
+
+.loved-card h3{
+    font-family: serif;
+}
+
+.loved-card p{
+    line-height:1.6;
+    letter-spacing: 1px;
+}
+
+
+/* ============================================================================================= */
+
+.footer{
+    padding: 10% 5%;
+    background-image: url(../imgs/home-footer.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    color: white;
+    min-height: 500px;
+}
+
+.title-footer{
+    margin-bottom: 80px;
+    font-family: serif;
+}
+
+.footercard{
+    max-width: 90%;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.footercard h5{
+    font-family: serif;
+}
